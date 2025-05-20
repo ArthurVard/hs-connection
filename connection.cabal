@@ -28,12 +28,12 @@ Library
                    , containers
                    , data-default-class
                    , network >= 2.6.3
-                   , tls >= 1.4
+                   , tls >= 1.4 && < 2.0
                    , socks >= 0.6
-                   , x509 >= 1.5
-                   , x509-store >= 1.5
-                   , x509-system >= 1.5
-                   , x509-validation >= 1.5
+                   , crypton-x509 >= 1.5
+                   , crypton-x509-store >= 1.6.9
+                   , crypton-x509-system >= 1.5
+                   , crypton-x509-validation >= 1.6.12
   Exposed-modules:   Network.Connection
   Other-modules:     Network.Connection.Types
   ghc-options:       -Wall
